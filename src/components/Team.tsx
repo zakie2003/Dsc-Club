@@ -2,12 +2,12 @@ import { useState } from "react";
 // import { team } from "../constants";
 // import { post } from "../constants";
 import { president } from "../constants";
-import { secreatry } from "../constants";
-import { Recruitment } from "../constants";
+// import { secreatry } from "../constants";
+// import { Recruitment } from "../constants";
 
 
 const Team = () => {
-  let [val,setval]=useState(president);
+  let [val]=useState(president);
   // function change_sec(){
   //   setval(secreatry);
   // }
